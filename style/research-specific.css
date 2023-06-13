@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background-color: var(--darkPurple);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-item {
+    display: flex;
+    align-items: center;
+}
+
+.btn-research {
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--black) !important;
+    background-color: white;
+    transition: background-color 0.24s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.2;
+    box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -6px 6px 0px 0px rgb(0 0 0);
+    -webkit-box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -6px 6px 0px 0px rgb(0 0 0);
+    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -6px 6px 0px 0px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.btn-research:hover {
+    background-color: rgb(215, 224, 228);
+    ;
+    box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
+    top: 2px;
+    left: -3px;
+}
+
+.disabled-link {
+    pointer-events: none;
+}
+
+.container-cc-narrow {
+    width: 85%;
+    max-width: 55em;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.topquote {
+    font-size: 1.15rem;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.fund-box {
+    background-color: var(--brightOrange);
+    background-size: cover;
+    background-position: top right;
+}
+
+
+.vip-box {
+    background-color: var(--brightPurple);
+    background-size: cover;
+    background-position: top right;
+}
+
+.recordings-box {
+    background-color: var(--brightBlue);
+    background-size: cover;
+    background-position: top right;
+}
+
+.pricing-img {
+    width: 220px;
+}
+
+.box-head-ticket {
+    display: flex;
+    gap: 10px;
+}
+
+.box-head-ticket .icon {
+    width: 30px;
+}
+
+.date {
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 54em) {
+    .date {
+        margin: 0 auto;
+    }
+
+    .mobile-view {
+        margin: 0px !important;
+        width: 100%;
+    }
+
+    .mobile-view h2,
+    .mobile-view h3,
+    .mobile-view p,
+    .mobile-view ul {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .hero-item {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .topquote h3 {
+        font-size: 1.25em;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-item h2 {
+        font-weight: 400;
+    }
+
+    .mobile-no-pb.py-3 {
+        padding-bottom: 0;
+    }
+
+    .mobile-no-px {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mobile-no-pl {
+        padding-left: 0;
+    }
+
+    .mobile-py-2 {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+.divider {
+    border-right: 2px solid white;
+}
+
+.testimonial-title h4 {
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.testimonial-title h4::before {
+    width: 15px;
+    height: 15px;
+    content: url('/images/quotes.png');
+    zoom: 3%;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-item h2 {
+        font-weight: 400;
+    }
+
+    .mobile-no-pb.py-3 {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    
+    .divider {
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .testimonial .pr-3, .testimonial .pl-3 {
+        padding-right: 0em !important;
+        padding-left: 0em !important;
+    }
+}
