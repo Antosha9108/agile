@@ -474,6 +474,12 @@ picture {
     }
 }
 
+@media(min-width:1024px) {
+    .width-50-on-desktop {
+        width: 50%;
+    }
+}
+
 @media(max-width:1024px) {
     .slightly-smaller {
         font-size: 1.5rem;

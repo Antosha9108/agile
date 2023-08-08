@@ -3,7 +3,7 @@ html {
 }
 
 .hero {
-    background-color: var(--darkPurple);
+    background-color: var(--brightYellow);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -11,6 +11,10 @@ html {
 .hero-item {
     display: flex;
     align-items: center;
+}
+
+.hero-graphic {
+    width: 200px;
 }
 
 .btn-research {
