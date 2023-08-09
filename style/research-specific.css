@@ -68,14 +68,14 @@ p {
 }
 
 .fund-box {
-    background-color: var(--brightOrange);
+    background-color: var(--darkYellow);
     background-size: cover;
     background-position: top right;
 }
 
 
 .vip-box {
-    background-color: var(--brightPurple);
+    background-color: var(--darkPurple);
     background-size: cover;
     background-position: top right;
 }
