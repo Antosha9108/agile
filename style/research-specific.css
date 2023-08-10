@@ -21,6 +21,18 @@ html {
     width: 200px;
 }
 
+.checkerboard {
+    position: relative;
+    top:2.95em;
+    right:25em;
+}
+
+.checkerboard-callout {
+    position: relative;
+    top:2.95em;
+    right:18em;
+}
+
 .btn-research {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--black) !important;

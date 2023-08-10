@@ -416,6 +416,10 @@ picture {
     margin-left: auto;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 
 @media only screen and (max-width: 54em) {
 
@@ -494,7 +498,7 @@ picture {
 }
 
 h3.call-out-text {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 @media(min-wdith:1024px) {
@@ -1418,7 +1422,7 @@ footer img {
 
     .hero-padding-adjustment-text {
         padding-top: 1em;
-        padding-bottom: 5em;
+        /* padding-bottom: 5em; */
     }
 }
 
