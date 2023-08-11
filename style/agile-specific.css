@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Hero */
+
 .hero {
     background-color: var(--brightYellow);
     background-size: cover;
@@ -27,9 +29,17 @@ html {
     right:31em;
 }
 
+/* Callouts */
+
 .checkerboard-callout {
     position: relative;
     top:2.95em;
+}
+
+/* Buttons */
+
+.btn-product {
+    min-width: 97% !important;
 }
 
 .btn-research {
@@ -78,27 +88,14 @@ p {
     align-items: center;
 }
 
-.fund-box {
-    background-color: var(--darkYellow);
-    background-size: cover;
-    background-position: top right;
+/* Products */
+
+.price {
+    color: #8c9b28;
+    letter-spacing: 1px;
 }
-
-
-.vip-box {
-    background-color: var(--darkPurple);
-    background-size: cover;
-    background-position: top right;
-}
-
-.recordings-box {
-    background-color: var(--brightBlue);
-    background-size: cover;
-    background-position: top right;
-}
-
 .pricing-img {
-    width: 220px;
+    width: 100%;
 }
 
 .box-head-ticket {
