@@ -649,6 +649,19 @@ li>ul>li {
     list-style-type: circle;
 }
 
+.black-check>li {
+    list-style: none;
+    background: url(../images/black-check.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-position: 0px 3px;
+    background-size: 20px;
+}
+
+.black-check>li>ul>li {
+    list-style-type: circle;
+}
+
 ul,
 ol {
     /* display: block; */
@@ -869,7 +882,7 @@ h4 {
     display: inline-block;
     text-decoration: none;
     color: var(--buttonTextColor, #fff);
-    max-width: 10em;
+    /* max-width: 10em; */
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -909,9 +922,19 @@ h4 {
     background-color: var(--brightYellow);
 }
 
-.btn-yellow:hover {
-    color: var(--dark);
+.btn-darkYellow {
+    color: var(--white);
     background-color: var(--darkYellow);
+}
+
+.btn-darkYellow:hover {
+    color: var(--white);
+    background-color: var(--darkYellow);
+}
+
+.btn-darkYellow:hover {
+    color: var(--dark);
+    background-color: #ba9130;
 }
 
 .btn-blue {
