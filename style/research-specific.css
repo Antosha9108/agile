@@ -24,13 +24,13 @@ html {
 .checkerboard {
     position: relative;
     top:2.95em;
-    right:25em;
+    right:28em;
 }
 
 .checkerboard-callout {
     position: relative;
     top:2.95em;
-    right:18em;
+    right:14em;
 }
 
 .btn-research {
