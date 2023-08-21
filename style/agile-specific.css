@@ -119,6 +119,8 @@ p {
         font-size: 1.25em;
     }
 
+
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -143,6 +145,12 @@ p {
         padding-left: 2em;
         padding-right: 2em;
     }
+
+    .mobile-padding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
 }
 
 .divider {
