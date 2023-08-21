@@ -27,7 +27,7 @@ html {
 
 .checkerboard {
     position: relative;
-    top: 3em;
+    top: 2.91em;
     right:31em;
 }
 
@@ -36,6 +36,13 @@ html {
 .checkerboard-callout {
     position: relative;
     top:2.95em;
+
+}
+
+.section-two {
+    position: relative;
+    top: 2.9em;
+
 }
 
 .recordings-callout li {
