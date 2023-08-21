@@ -751,9 +751,9 @@ h4 {
 }
 
 @media screen and (max-width: 27em) {
-  #header .btn {
+  /* #header .btn {
     font-size: 0.75rem !important;
-  }
+  } */
 
   #header .topbar img {
     width: 100%;
