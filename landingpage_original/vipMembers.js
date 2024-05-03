@@ -57,9 +57,11 @@ async function getRecordCountInTable(personalAccessToken, baseId, tableName) {
       console.log('Unable to retrieve the record count.');
     }
   })
+    
+    /*
   .catch((error) => {
     console.error('Error:', error);
   });
-
+*/
 
   
