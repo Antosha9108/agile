@@ -765,9 +765,11 @@ h4 {
    
 }
     #header .topbar img {
-        width: auto; /* Set width to auto to maintain aspect ratio */
+        width: 100%;
+        height: auto; /* Set width to auto to maintain aspect ratio */
         max-height: 60px !important;
-            vertical-align: baseline;
+        display: block; 
+        margin: auto; 
 
     }
 
