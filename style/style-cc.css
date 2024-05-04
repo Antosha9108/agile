@@ -732,31 +732,32 @@ h4 {
 \*------------------------------------*/
 
 #header .topbar {
-  /* padding: 35px 20px; */
-  padding: 5px 0px;
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 #header .topbar img {
-  max-width: 210px;
-  height: auto;
+    max-width: 210px;
+    width: 100%;
+    height: auto;
 }
 
 .head-logo {
-  margin-top: 0.35rem;
-  margin-bottom: 0.35rem;
-  min-height: 70px;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
 }
 
 @media screen and (max-width: 27em) {
-  /* #header .btn {
-    font-size: 0.75rem !important;
-  } */
+    #header .btn {
+        font-size: 0.75rem !important;
+    }
 
-  #header .topbar img {
-    height: 100%;
-  }
+    #header .topbar img {
+        width: auto; /* Set width to auto to maintain aspect ratio */
+        max-height: 35px;
+    }
 }
 
 /*------------------------------------*\
@@ -872,8 +873,10 @@ h4 {
 }
 
 .btn-fill {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
+    border:none; 
+ outline:none;
 }
 
 .btn-purple {
