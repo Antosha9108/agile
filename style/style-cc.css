@@ -1410,6 +1410,19 @@ footer img {
   }
 }
 
+@media(max-width:375px) {
+    #header .topbar {
+        flex-direction: column;
+
+    }
+
+    .head-button {
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+    }
+}
+
+/*
 @media (max-width: 410px) {
   
   .head-logo img {
@@ -1427,6 +1440,7 @@ footer img {
     font-size: 13px;
   }
 }
+*/
 
 @media (min-width: 1024px) {
   .hero-padding-adjustment-image {
