@@ -317,6 +317,7 @@ picture {
   width: 85%;
   max-width: 66em;
   margin: 0 auto;
+    justify-content: space-between;
 }
 
 .column {
@@ -744,7 +745,7 @@ h4 {
 }
 
 .head-button a {
-    color: #fff;
+    color: #2c2c2c;
     text-decoration: none;
 }
 
@@ -760,7 +761,8 @@ h4 {
 
     #header .topbar img {
         width: auto; /* Set width to auto to maintain aspect ratio */
-        max-height: 35px;
+        max-height: 68px;
+            align-items: center;
     }
 }
 
