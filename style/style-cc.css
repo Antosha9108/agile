@@ -764,17 +764,22 @@ h4 {
 
    
 }
+/*
     #header .topbar img {
         width: 100%;
-        height: auto; /* Set width to auto to maintain aspect ratio */
+        height: auto; 
         max-height: 60px !important;
         display: block; 
         margin: auto; 
 
     }
-
+*/
     .head-logo {
-vertical-align: baseline;
+        width: 100%;
+        height: auto; /* Set width to auto to maintain aspect ratio */
+        max-height: 60px !important;
+        display: block; 
+        margin: auto; 
 }
     #header .btn {
         font-size: 0.75rem !important;
